@@ -9,7 +9,7 @@ public class first {
         System.out.println(total);
     }
 public static void main(String[] args) {
-    int marks[] = new int[3];
+    int marks[] = new int[100];
     marks[0] = 7;
     marks[1] = 4;
     marks[2] = 5;
