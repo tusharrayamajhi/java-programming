@@ -1,14 +1,16 @@
-import java.util.Scanner;
-
 public class first {
-    public static void sum1(int a, int b){
-        System.out.println(a + b);
+    public static void sum1(int marks[]){
+        for(int i = 0; i <= marks.length; i++){
+            System.out.println(marks[i]);
+        }
     }
 public static void main(String[] args) {
-    Scanner r = new Scanner(System.in);
-    int a = r.nextInt();
-    int b = r.nextInt();
-    sum1(b, a);
+    int marks[] = new int[2];
+    marks[0] = 7;
+    marks[1] = 4;
+    marks[2] = 5;
+    sum1(marks);
+
 }
     
 }
