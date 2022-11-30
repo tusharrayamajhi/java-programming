@@ -11,7 +11,7 @@ public class uniquenum {
         return false;
     }
     public static void main(String[] args) {
-        int num[] = {1, 2, 3, 4, 9, 8, 5, 6, 7};
+        int num[] = {1, 2, 3, 4, -8, -8, 5, 6, 7};
         
         System.out.println(num1(num));
 
