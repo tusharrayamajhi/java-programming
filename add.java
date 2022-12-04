@@ -23,7 +23,7 @@ public class add {
         int[] l2 = {5,6,4};
         System.out.println(l1.length);
         
-        int[] num = add1s(l1, l2);
+        int[] num = add1(l1, l2);
         for(int i = 0; i <= num.length; i++){
             System.out.println(num[i]);
         }
