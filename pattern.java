@@ -14,7 +14,7 @@ public class pattern {
 
     }
 
-public static void pattern(){
+public static void pattern1(){
 
 
     int i, j, row = 6;
@@ -31,6 +31,6 @@ public static void pattern(){
 
     public static void main(String[] args) {
         // HolloPattern();
-        pattern();
+        pattern1();
     }
 }
