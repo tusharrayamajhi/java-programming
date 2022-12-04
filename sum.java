@@ -4,7 +4,7 @@ public class sum {
         if(n == 0){
             return 1;
         }
-        int a = powof2(n -1);
+        int a = powof2(n - 1);
         return a * 2;
     }
     // public static boolean ispowoftwo(int n){
@@ -16,26 +16,20 @@ public class sum {
     //     return false;
         
     // }
-    public static int abc(int a){
-        if(a == 1){
+
+    public static int fib(int n){
+        if(n == 0){
+            return 0;
+        }else if(n == 1){
             return 1;
         }
-        
+        int a = fib(n - 1);
+        int b = fib(n - 2);
+        return (a + b);
     }
-    // public static int fib(int n){
-    //     if(n == 0){
-    //         return 0;
-    //     }else if(n == 1){
-    //         return 1;
-    //     }
-    //     int a = fib(n - 1);
-    //     int b = fib(n - 2);
-    //     return a + b;
-    // }
     public static void main(String[] args) {
       
     //    System.out.println( ispowoftwo(32767));
     //    System.out.println( ispowoftwo(3));
-    abc(63);
     }
 }
