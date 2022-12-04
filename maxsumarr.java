@@ -1,5 +1,3 @@
-import java.nio.charset.StandardCharsets;
-
 public class maxsumarr {
     public static void maxsum(int arr[]){
         //int max = 0;
