@@ -29,16 +29,17 @@ public class hello {
         return a * b;
     }
     public static void main(String[] args) {
-        //How to find factorial of a number using recursion ?
-        //How to find the sum of digits of a number using recursion ?
-        //How to calculate Power of a number using recursion ?
-        //How to reverse a LinkedList using recursion ? 
-        // int a = 5;
-        // System.out.println(fact(a));
-    //    System.out.println( SumOfDigit(545));
-    //System.out.println(pow(2,3));
-    Scanner r = new Scanner(System.in);
+        try (//How to find factorial of a number using recursion ?
+            //How to find the sum of digits of a number using recursion ?
+            //How to calculate Power of a number using recursion ?
+            //How to reverse a LinkedList using recursion ? 
+            // int a = 5;
+            // System.out.println(fact(a));
+        //    System.out.println( SumOfDigit(545));
+        //System.out.println(pow(2,3));
+    Scanner r = new Scanner(System.in)) {
         int a = r.nextInt();
         int b = r.nextInt();
     System.out.println(Sum(a,b));
+    }
 }}
