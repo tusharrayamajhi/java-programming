@@ -1,7 +1,3 @@
-import java.util.Scanner;
-
-import javax.swing.plaf.metal.MetalBorders.PopupMenuBorder;
-
 public class first {
     public static void sum1(int marks[]) {
         int total = 0;
