@@ -18,7 +18,6 @@ public class taperainwater {
             tapewater += waterlevel - arr[k];
         }
         return tapewater;
-
     }
 
     public static void main(String[] args) {
