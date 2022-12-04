@@ -1,5 +1,5 @@
 public class add {
-    public static int[] add(int[] l1, int[] l2){
+    public static int[] add1(int[] l1, int[] l2){
         int a = l1.length;
         int[] c = new int[2];
         int d = 0;
@@ -23,7 +23,7 @@ public class add {
         int[] l2 = {5,6,4};
         System.out.println(l1.length);
         
-        int[] num = add(l1, l2);
+        int[] num = add1s(l1, l2);
         for(int i = 0; i <= num.length; i++){
             System.out.println(num[i]);
         }
