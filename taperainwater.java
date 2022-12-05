@@ -21,7 +21,7 @@ public class taperainwater {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 5, 3, 0, 4, 6, 2, 0, 5 };
+        int arr[] = {5, 3, 0, 4, 6, 2, 0, 7};
         System.out.println(water(arr));
     }
 
