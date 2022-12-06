@@ -12,7 +12,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        String str = "nonon";
+        String str = "noon";
         System.out.println(ispalindrom(str)); 
     }
 }
