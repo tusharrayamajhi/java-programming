@@ -1,5 +1,5 @@
 
-class Solution {
+class palindrom{
     public static boolean ispalindrom(String str) {
         int l = str.length() / 2;
         for (int i = 0; i <= l; i++) {
@@ -13,6 +13,7 @@ class Solution {
 
     public static void main(String[] args) {
         String str = "noon";
-        System.out.println(ispalindrom(str)); 
+        System.out.println(ispalindrom(str));
+        System.out.println("hello world");
     }
 }
