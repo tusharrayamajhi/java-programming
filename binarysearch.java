@@ -7,7 +7,7 @@ public class binarysearch {
         if(marks[mid_val] < key){
             start_val = mid_val + 1;
         }else if(marks[mid_val] == key){
-            return 1;
+            return mid_val;
         }else{
             last_val = mid_val - 1;
         }
@@ -15,8 +15,8 @@ public class binarysearch {
     return -1;
      }
     public static void main(String[] args) {
-         int marks[] = {2, 3, 5, 7, 12, 14, 35, 40, 43, 48, 53, 57, 61};
-         System.out.println(Binarysearch(marks, 0));
+         int marks[] = {1, 3, 5};
+         System.out.println(Binarysearch(marks, 2));
 
     }
 }
