@@ -45,7 +45,7 @@ public class n_Queen {
         }
     }
     public static void main(String[] args) {
-        int n = 10;
+        int n = 4;
         char arr[][] = new char[n][n];
         for(int i = 0;i<arr.length; i++){
             for(int j = 0;j<arr.length; j++){
