@@ -1,16 +1,17 @@
-import java.util.ArrayList;
 public class Pairsum {
+    public static void print(){
+        pen p1 = new pen("hi my name is tushar rayamajhi");
+    }
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(5);
-        list.add(6);
-        list.get(0);
-        System.out.println(list);
+        print();
+    }
+}
 
-
+class pen {
+    String color;
+    int tipsize;
+    pen(String name){
+        name1 = name;
+        System.out.println(name1);
     }
 }
